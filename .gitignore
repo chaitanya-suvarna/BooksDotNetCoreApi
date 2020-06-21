@@ -1,0 +1,6 @@
+*.suo
+*.user
+_ReSharper.*
+Book/bin
+Book/obj
+packages
