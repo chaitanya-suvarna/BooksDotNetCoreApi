@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Books</name>
+    </assembly>
+    <members>
+        <member name="M:Books.Controllers.BooksController.GetBook(System.Guid)">
+            <summary>
+            Get a Book by id
+            </summary>
+            <param name="id">The id of the book you want to get</param>
+            <returns>A book wuth id,author, title,description and book cover</returns>
+        </member>
+        <member name="T:Books.ExternalModels.BookCover">
+            <summary>
+            A BookCover with Name and Content
+            </summary>
+        </member>
+        <member name="P:Books.ExternalModels.BookCover.Name">
+            <summary>
+            The name of the BookCover
+            </summary>
+        </member>
+        <member name="P:Books.ExternalModels.BookCover.Content">
+            <summary>
+            The book cover content in byte-array format
+            </summary>
+        </member>
+        <member name="T:Books.Models.Book">
+            <summary>
+            Book object
+            </summary>
+        </member>
+        <member name="P:Books.Models.Book.Id">
+            <summary>
+            Id for Book
+            </summary>
+        </member>
+        <member name="P:Books.Models.Book.Author">
+            <summary>
+            Book author name
+            </summary>
+        </member>
+        <member name="P:Books.Models.Book.Title">
+            <summary>
+            Title of the book
+            </summary>
+        </member>
+        <member name="P:Books.Models.Book.Description">
+            <summary>
+            Description for the book
+            </summary>
+        </member>
+        <member name="T:Books.Models.BookCover">
+            <summary>
+            Book Cover
+            </summary>
+        </member>
+        <member name="P:Books.Models.BookCover.Name">
+            <summary>
+            Name of the Book Cover
+            </summary>
+        </member>
+        <member name="P:Books.Models.BookCover.Content">
+            <summary>
+            Content of the book Cover in byte-array format
+            </summary>
+        </member>
+        <member name="T:Books.Models.BookForCreation">
+            <summary>
+            Book object for Creation
+            </summary>
+        </member>
+        <member name="P:Books.Models.BookForCreation.AuthorId">
+            <summary>
+            Author id
+            </summary>
+        </member>
+        <member name="P:Books.Models.BookForCreation.Title">
+            <summary>
+            Title of Book
+            </summary>
+        </member>
+        <member name="P:Books.Models.BookForCreation.Description">
+            <summary>
+            Description of Book
+            </summary>
+        </member>
+        <member name="T:Books.Models.BookWithCovers">
+            <summary>
+             A Book object with all it's covers
+            </summary>
+        </member>
+        <member name="P:Books.Models.BookWithCovers.BookCovers">
+            <summary>
+            A collection of covers for the book
+            </summary>
+        </member>
+    </members>
+</doc>

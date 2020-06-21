@@ -12,3 +12,4 @@ G:\Dot Net\Async with .Net Core\Book\Book\bin\Debug\netcoreapp2.1\Books.pdb
 G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.RazorTargetAssemblyInfo.cache
 G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.dll
 G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.pdb
+G:\Dot Net\Async with .Net Core\Book\Book\bin\Debug\netcoreapp2.1\Books.xml

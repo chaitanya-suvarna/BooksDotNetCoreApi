@@ -32,10 +32,16 @@ namespace Books.Controllers
             return Ok(bookEntities);
         }
 
+        /// <summary>
+        /// Get a Book by id
+        /// </summary>
+        /// <param name="id">The id of the book you want to get</param>
+        /// <returns>A book wuth id,author, title,description and book cover</returns>
+
         [HttpGet]
         [Route("{id}", Name = "GetBook")]
         [BookWithCoverResultFilter]
-        public async Task<IActionResult> GetBook(Guid id)
+        public async Task<ActionResult<BookWithCovers>> GetBook(Guid id)
         {
             var bookEntity = await _booksRepository.GetBookAsync(id);
             if(bookEntity == null)

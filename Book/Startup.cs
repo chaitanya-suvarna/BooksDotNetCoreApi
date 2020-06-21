@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using AutoMapper;
 using Books.Contexts;
@@ -29,9 +31,11 @@ namespace Books
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                .AddXmlSerializerFormatters();
             var connectionString = Configuration["ConnectionStrings:BooksDBConnectionString"];
             services.AddDbContext<BooksContext>(o => o.UseSqlServer(connectionString));
+            
 
             services.AddHttpClient();
             services.AddScoped<IBooksRepository, BooksRepository>();
@@ -47,6 +51,10 @@ namespace Books
                         Version = "1",
 
                     });
+
+                var xmlCommentsFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlCommentsFulPath = Path.Combine(AppContext.BaseDirectory,xmlCommentsFile);
+                setupAction.IncludeXmlComments(xmlCommentsFulPath);
             });
         }
 
@@ -65,6 +73,13 @@ namespace Books
             app.UseHttpsRedirection();
 
             app.UseSwagger();
+
+            app.UseSwaggerUI(setupAction =>
+            {
+                setupAction.SwaggerEndpoint(
+                    "/swagger/BookOpenAPISpecification/swagger.json",
+                    "Book API");
+            });
 
             app.UseMvc();
         }
