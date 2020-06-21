@@ -1,6 +1,7 @@
 *.suo
 *.user
 _ReSharper.*
-Book/bin
-Book/obj
+Book/bin*
+Book/obj*
 packages
+.vs
