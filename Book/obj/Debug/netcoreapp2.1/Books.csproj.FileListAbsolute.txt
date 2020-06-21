@@ -1,0 +1,14 @@
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.csprojAssemblyReference.cache
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.csproj.CoreCompileInputs.cache
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.RazorAssemblyInfo.cache
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.RazorAssemblyInfo.cs
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.AssemblyInfoInputs.cache
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.AssemblyInfo.cs
+G:\Dot Net\Async with .Net Core\Book\Book\bin\Debug\netcoreapp2.1\Books.deps.json
+G:\Dot Net\Async with .Net Core\Book\Book\bin\Debug\netcoreapp2.1\Books.runtimeconfig.json
+G:\Dot Net\Async with .Net Core\Book\Book\bin\Debug\netcoreapp2.1\Books.runtimeconfig.dev.json
+G:\Dot Net\Async with .Net Core\Book\Book\bin\Debug\netcoreapp2.1\Books.dll
+G:\Dot Net\Async with .Net Core\Book\Book\bin\Debug\netcoreapp2.1\Books.pdb
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.RazorTargetAssemblyInfo.cache
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.dll
+G:\Dot Net\Async with .Net Core\Book\Book\obj\Debug\netcoreapp2.1\Books.pdb

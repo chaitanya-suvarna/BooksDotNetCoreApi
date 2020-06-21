@@ -1,0 +1,14 @@
+G:\Dot Net\Async with .Net Core\Book\BookCovers\bin\Debug\netcoreapp2.1\BookCovers.deps.json
+G:\Dot Net\Async with .Net Core\Book\BookCovers\bin\Debug\netcoreapp2.1\BookCovers.runtimeconfig.json
+G:\Dot Net\Async with .Net Core\Book\BookCovers\bin\Debug\netcoreapp2.1\BookCovers.runtimeconfig.dev.json
+G:\Dot Net\Async with .Net Core\Book\BookCovers\bin\Debug\netcoreapp2.1\BookCovers.dll
+G:\Dot Net\Async with .Net Core\Book\BookCovers\bin\Debug\netcoreapp2.1\BookCovers.pdb
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.csprojAssemblyReference.cache
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.csproj.CoreCompileInputs.cache
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.RazorAssemblyInfo.cache
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.RazorAssemblyInfo.cs
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.AssemblyInfoInputs.cache
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.AssemblyInfo.cs
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.RazorTargetAssemblyInfo.cache
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.dll
+G:\Dot Net\Async with .Net Core\Book\BookCovers\obj\Debug\netcoreapp2.1\BookCovers.pdb
